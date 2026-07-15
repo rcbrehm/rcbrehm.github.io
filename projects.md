@@ -13,7 +13,7 @@ In my research, I focus on humanitarian and developmental efforts in the DPR Kor
 
 <div class="entry-card" markdown="1">
 
-### I. Under Pressure: Institutional Complexity in United Nations Assistance to the DPRK
+### I. Under Pressure: An Institutional Analysis of UNICEF and WFP Responses to Humanitarian Dilemmas in the DPRK
 
 <div class="meta-block" markdown="0">
 <dl>
