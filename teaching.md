@@ -7,6 +7,9 @@ permalink: /teaching/
 # Teaching
 
 I teach graduate courses at the Department of East Asian Studies, University of Vienna.
+{: .page-lead }
+
+<div class="entry-card" markdown="1">
 
 ## Humanitarian Assistance in East Asia
 
@@ -22,6 +25,10 @@ This course provides an overview of international assistance, covering its key c
 
 [Course details on u:find](https://ufind.univie.ac.at/en/course.html?lv=150126&semester=2025W)
 
+</div>
+
+<div class="entry-card" markdown="1">
+
 ## Political Propaganda in Modern East Asia
 
 <div class="meta-block" markdown="0">
@@ -35,3 +42,5 @@ This course provides an overview of international assistance, covering its key c
 How do national authorities in East Asia construct, maintain, and repair identity and legitimacy through propaganda? This interactive course decodes propaganda artifacts such as posters, pamphlets, leaflets, paintings, and photographs. In theme-centered sessions spanning the late 19th to the early 21st century, it covers China, Japan, and the Koreas, from empires and wartime propaganda to postwar authoritarianism and liberal democracies.
 
 [Course details on u:find](https://ufind.univie.ac.at/en/course.html?lv=150055&semester=2026S)
+
+</div>
