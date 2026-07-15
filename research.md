@@ -7,6 +7,7 @@ permalink: /research/
 # Research
 
 This page collects my publications and related scholarly output.
+{: .page-lead }
 
 ## Peer-Reviewed Journal Articles
 
