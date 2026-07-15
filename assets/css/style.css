@@ -1,0 +1,164 @@
+/* rcbrehm.github.io — blue / white / gray, Univie-EcoS inspired */
+:root {
+  --accent: #0063a6;
+  --accent-dark: #004c80;
+  --text: #333333;
+  --muted: #666666;
+  --surface: #f5f6f7;
+  --border: #e2e5e8;
+  --white: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--white);
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-dark); text-decoration: underline; }
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--accent);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+}
+.skip-link:focus { left: 0; }
+
+/* Header */
+.site-header {
+  background: var(--white);
+  border-bottom: 3px solid var(--accent);
+}
+.header-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0.9rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+}
+.site-brand { display: flex; flex-direction: column; line-height: 1.25; }
+.site-brand:hover { text-decoration: none; }
+.brand-name { font-weight: 700; font-size: 1.15rem; color: var(--text); }
+.brand-sub { font-size: 0.85rem; color: var(--muted); }
+.site-nav { display: flex; flex-wrap: wrap; gap: 0.25rem; }
+.site-nav a {
+  padding: 0.4rem 0.75rem;
+  border-radius: 4px;
+  color: var(--text);
+  font-weight: 500;
+}
+.site-nav a:hover { background: var(--surface); text-decoration: none; }
+.site-nav a.active { color: var(--accent); font-weight: 700; }
+
+/* Layout */
+.page-wrap {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 2.25rem 1.25rem 3rem;
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 3rem;
+  align-items: start;
+}
+
+/* Sidebar */
+.author-card { text-align: left; }
+.author-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  border: 3px solid var(--border);
+}
+.author-name { margin: 1rem 0 0.25rem; font-size: 1.3rem; line-height: 1.3; }
+.author-title { margin: 0 0 1rem; color: var(--muted); font-size: 0.95rem; line-height: 1.45; }
+.author-links { list-style: none; margin: 0; padding: 0; font-size: 0.95rem; }
+.author-links li { margin: 0.35rem 0; }
+.author-links a { color: var(--text); display: flex; align-items: center; gap: 0.6rem; }
+.author-links a:hover { color: var(--accent); text-decoration: none; }
+.author-links i { color: var(--accent); width: 1.1rem; text-align: center; }
+
+/* Content */
+.content h1 {
+  margin-top: 0;
+  font-size: 1.9rem;
+  line-height: 1.25;
+  color: var(--text);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.5rem;
+}
+.content h2 {
+  font-size: 1.35rem;
+  margin-top: 2.25rem;
+  color: var(--accent-dark);
+}
+.content h3 { font-size: 1.1rem; margin-top: 1.75rem; }
+.content p { margin: 0 0 1.1rem; }
+.content ul { padding-left: 1.3rem; }
+
+.page-lead { color: var(--muted); }
+
+/* Project / course meta blocks */
+.meta-block {
+  background: var(--surface);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+  padding: 0.9rem 1.2rem;
+  margin: 1rem 0 1.25rem;
+  font-size: 0.95rem;
+}
+.meta-block dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.25rem 1.25rem; }
+.meta-block dt { font-weight: 700; color: var(--accent-dark); }
+.meta-block dd { margin: 0; }
+
+/* Publication entries */
+.pub-entry { margin-bottom: 1.25rem; }
+.pub-links a { margin-right: 0.9rem; font-size: 0.92rem; white-space: nowrap; }
+
+/* Button */
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--white);
+  padding: 0.55rem 1.2rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.btn:hover { background: var(--accent-dark); color: var(--white); text-decoration: none; }
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1.25rem;
+}
+.site-footer p { margin: 0; }
+
+/* Responsive */
+@media (max-width: 800px) {
+  .page-wrap { grid-template-columns: 1fr; gap: 2rem; }
+  .author-card { text-align: center; }
+  .author-avatar { margin: 0 auto; width: 160px; height: 160px; }
+  .author-links { display: inline-block; text-align: left; }
+  .header-inner { justify-content: center; text-align: center; }
+  .site-brand { align-items: center; }
+}

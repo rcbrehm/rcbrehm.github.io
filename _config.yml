@@ -1,0 +1,59 @@
+# Site settings for rcbrehm.github.io
+title: Robin Christopher Brehm
+description: >-
+  Predoctoral University Assistant at the Department of East Asian Studies,
+  University of Vienna, and Vice-Director of the European Centre for North
+  Korean Studies. Researching humanitarian assistance, institutional
+  complexity, and political communication in East Asia, with a focus on
+  North Korea.
+url: "https://rcbrehm.github.io"
+lang: en
+
+author:
+  name: Robin Christopher Brehm
+  title1: Predoctoral University Assistant
+  title2: University of Vienna
+  headshot: /assets/images/headshot.jpg
+  links:
+    - label: Vienna, Austria
+      icon: fa-solid fa-location-dot
+      url: "https://www.google.com/maps/place/Vienna,+Austria"
+    - label: Email
+      icon: fa-solid fa-envelope
+      url: "mailto:robin.christopher.brehm@univie.ac.at"
+    - label: GitHub
+      icon: fa-brands fa-github
+      url: "https://github.com/rcbrehm"
+    - label: LinkedIn
+      icon: fa-brands fa-linkedin
+      url: "https://www.linkedin.com/in/rcbrehm/"
+    - label: Bluesky
+      icon: fa-brands fa-bluesky
+      url: "https://bsky.app/profile/rcbrehm.bsky.social"
+    - label: Google Scholar
+      icon: fa-solid fa-graduation-cap
+      url: "https://scholar.google.com/citations?user=PxVnjJwAAAAJ&hl=en"
+
+navigation:
+  - title: About
+    url: /
+  - title: Projects
+    url: /projects/
+  - title: Research
+    url: /research/
+  - title: Teaching
+    url: /teaching/
+  - title: CV
+    url: /cv/
+
+# Set to true once assets/pdf/brehm-cv.pdf has been uploaded
+cv_pdf: false
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
