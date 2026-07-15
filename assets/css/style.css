@@ -124,7 +124,8 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 }
 .author-avatar {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  height: auto;
+  aspect-ratio: 2 / 3;
   border-radius: var(--radius-md);
   object-fit: cover;
   display: block;
