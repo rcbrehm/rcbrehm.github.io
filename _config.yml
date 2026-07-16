@@ -19,7 +19,6 @@ author:
   links:
     - label: Vienna, Austria
       icon: fa-solid fa-location-dot
-      url: "https://www.google.com/maps/place/Vienna,+Austria"
     - label: Email
       icon: fa-solid fa-envelope
       url: "mailto:robin.christopher.brehm@univie.ac.at"
