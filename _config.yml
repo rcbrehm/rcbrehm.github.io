@@ -54,6 +54,9 @@ markdown: kramdown
 kramdown:
   input: GFM
 
+plugins:
+  - jekyll-sitemap
+
 exclude:
   - README.md
   - Gemfile

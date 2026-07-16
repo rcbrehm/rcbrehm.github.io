@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rcbrehm.github.io/sitemap.xml
