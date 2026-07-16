@@ -43,11 +43,11 @@ Beck, S., LaFlamme, M., Brehm, R., & Poetz, M. (2021). Exploring Organizational 
 ## Talks & Presentations
 
 <div class="pub-entry" markdown="1">
-Brehm, R. (2025, November 26). Dissertation research presentation. Ostasienforum, Department of East Asian Studies, University of Vienna.
+Brehm, R. (2025, November 26). Under Pressure: An Institutional Analysis of UNICEF and WFP Responses to Humanitarian Dilemmas in the DPRK. Ostasienforum, Department of East Asian Studies, University of Vienna.
 </div>
 
 <div class="pub-entry" markdown="1">
-Brehm, R. (2025, November 21). Dissertation research presentation. ECNK PhD Seminar, European Centre for North Korean Studies, University of Vienna.
+Brehm, R. (2025, November 21). Under Pressure: An Institutional Analysis of UNICEF and WFP Responses to Humanitarian Dilemmas in the DPRK. ECNK PhD Seminar, European Centre for North Korean Studies, University of Vienna.
 </div>
 
 <div class="pub-entry" markdown="1">
